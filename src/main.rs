@@ -1,11 +1,18 @@
-mod gui;
-use gui::UnGUI::*;
-use sdl2::pixels::Color;
-use sdl2::event::Event;
-use sdl2::keyboard::Keycode;
-use std::time::Duration;
+use crate::UnGUI::vector::Vector2D;
+use crate::UnGUI::skeleton::*;
+use crate::UnGUI::widget::*;
+
+pub mod UnGUI;
 
 fn main() -> Result<(), String> {
+
+
+
+
+
+    /*
+
+
     let sdl_context = sdl2::init()?;
     let video_subsystem = sdl_context.video()?;
 
@@ -61,6 +68,8 @@ fn main() -> Result<(), String> {
         canvas.present();
         ::std::thread::sleep(Duration::new(0, 1_000_000_000u32 / 60));
     }
+    */
+
 
 
 
